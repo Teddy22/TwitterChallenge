@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+	<title>Twitter Challenge</title>
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="#">Twitter Challenge</a>
+    		</div>
+    	</div>
+	</nav>
+
+	<div id="wrapper">
+
+		<div class="row">
+
+		<div class="col-sm-6" >
+			<h1>Enter Twitterfeed Keyword</h1>
+			<div class="input-group">
+				<input type="text" class="form-control" id="searchterm" placeholder="twitter feed keyword...">
+				<span class="input-group-btn">
+					<button class="btn btn-default" type="button" onclick="getFeed()">Show Feed</button>
+				</span>
+			</div>
+		</div>
+
+		<div class="col-sm-6">
+			<h1>Twitterfeed<p id="keyword"></p></h1>
+			<div id="feed">
+			</div>
+		</div>
+
+
+		</div>
+    	
+    </div>
+</html>

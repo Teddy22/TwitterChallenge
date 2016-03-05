@@ -1,0 +1,17 @@
+{
+  "name": "cnn",
+  "version": "1.0.0",
+  "description": "display twitter feed",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward Mwangi",
+  "license": "ISC",
+  
+  "dependencies": {
+    "express": "= 4.1.3",
+    "twitter": "= 1.2.5", 
+    "request": ">= 2.69.0"
+  }
+}
